@@ -8,7 +8,7 @@ const LAW = {
   name: '建築物電氣設備裝置規則',
   amended: '民國 114 年 05 月 09 日',
   fullUrl: 'https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0030018',
-  updated: '2026/08/28',
+  updated: '2026/09/15',
   author: 'AJ',
 };
 
