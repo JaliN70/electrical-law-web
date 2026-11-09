@@ -14,7 +14,7 @@ $repo = "electrical-law-web"
 $user = (gh api user -q .login)
 $exists = gh repo view "$user/$repo" 2>$null
 if ($LASTEXITCODE -ne 0) {
-    gh repo create $repo --public --source=. --remote=origin --push --description "建築物電氣設備裝置規則 - 手機網頁版"
+    gh repo create $repo --public --source=. --remote=origin --push --description "用戶用電設備裝置規則 - 手機網頁版"
 } else {
     git push -u origin main
 }
